@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "P": {
+            "item": "iceandfire:pixie_dust"
+        },
+        "D": {
+            "item": "minecraft:pink_dye"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        }
+    },
+    "pattern": [
+        " D ",
+        "PEP",
+        " P "
+    ],
+    "result": {
+        "item": "dragonhrt:dragon_estrogen"
+    },
+    "show_notification": true
+}
