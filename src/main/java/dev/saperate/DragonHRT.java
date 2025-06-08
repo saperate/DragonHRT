@@ -1,5 +1,7 @@
 package dev.saperate;
 
+import dev.saperate.effects.DragonHRTEffects;
+import dev.saperate.items.DragonHRTITems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,5 +14,7 @@ public class DragonHRT implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello from DragonHRT! :3");
+		DragonHRTITems.register();
+		DragonHRTEffects.register();
 	}
 }
